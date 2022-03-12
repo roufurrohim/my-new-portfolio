@@ -876,18 +876,6 @@ img {
     row-gap: 3rem !important;
 }
 
-.contact__informationPhone {
-    width: 100% !important;
-    display: flex !important;
-    justify-content: flex-end !important;
-    margin-bottom: var(--mb-2) !important;
-    padding-right: 5px !important;
-}
-
-.contact__informationPhone .bundleContact {
-    text-align: center !important;
-}
-
 .contact__information {
     display: flex !important;
     align-items: center !important;
@@ -1019,7 +1007,7 @@ img {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 350px){
+@media screen and (max-width: 567px){
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -1055,6 +1043,23 @@ img {
     .project__img {
         width: 200px;
     }
+    .contact__myStyle {
+        width: 100%;
+    }
+    .contact__container__myStyle {
+        width: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .contact__container__myStyle .contact__information {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+
+    }
     .testimonial__data,
     .testimonial__header {
         flex-direction: column;
@@ -1086,10 +1091,23 @@ img {
     .skills__container,
     .portfolio__content,
     .project__container,
-    .contact__container,
     .footer__container {
         grid-template-columns: repeat(2, 1fr)
     }
+    /* .contact__container__myStyle {
+        width: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .contact__container__myStyle .contact__information {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+
+    } */
     .qualification__section {
         display: grid;
         grid-template-columns: .6fr;
