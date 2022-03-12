@@ -861,19 +861,29 @@ img {
 }
 
 /*==================== CONTACT ME ====================*/
+.contact__container__myStyle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
 .contact__container {
     row-gap: 3rem;
 }
 
 .contact__information {
     display: flex;
+    align-items: center;
     margin-bottom: var(--mb-2);
+    /* padding: 0 5px; */
 }
 
 .contact__icon {
     font-size: 2rem;
     color: var(--first-color);
-    margin-right: var(--mb-0-75);
+    margin-right: var(--mb-0-25);
 }
 
 .contact__title {
@@ -881,7 +891,7 @@ img {
     font-weight: var(--font-medium);
 }
 
-.contact__subtitle {
+.contact__subtitle a {
     font-size: var(--small-font-size);
     color: var(--text-color-light);
 }
