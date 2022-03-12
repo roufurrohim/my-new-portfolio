@@ -862,42 +862,42 @@ img {
 
 /*==================== CONTACT ME ====================*/
 .contact_title {
-    text-align: center;
+    text-align: center !important;
 }
 .contact__container__myStyle {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+    width: 100% !important;
 }
 
 .contact__container {
-    row-gap: 3rem;
+    row-gap: 3rem !important;
 }
 
 .contact__informationPhone {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: var(--mb-2);
-    padding-right: 5px;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    margin-bottom: var(--mb-2) !important;
+    padding-right: 5px !important;
 }
 
 .contact__informationPhone .bundleContact {
-    text-align: center;
+    text-align: center !important;
 }
 
 .contact__information {
-    display: flex;
-    align-items: center;
-    margin-bottom: var(--mb-2);
-    width: 100%;
+    display: flex !important;
+    align-items: center !important;
+    margin-bottom: var(--mb-2) !important;
+    width: 100% !important;
 }
 
 .contact__information .bundleContact {
-    text-align: center;
-    margin: 0 10px;
+    text-align: center !important;
+    margin: 0 10px !important;
 }
 
 .contact__icon {
