@@ -217,6 +217,9 @@ img {
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
     }
+    .contact_title {
+        padding-right: 0;
+    }
 }
 
 .nav__list {
@@ -862,14 +865,14 @@ img {
 
 /*==================== CONTACT ME ====================*/
 .contact_title {
-    text-align: center !important;
+    padding-right: 80px;
 }
+
 .contact__container__myStyle {
     display: flex !important;
     flex-direction: row !important;
     align-items: center !important;
     justify-content: space-evenly !important;
-    width: 100% !important;
 }
 
 .contact__container {
@@ -880,7 +883,7 @@ img {
     display: flex !important;
     align-items: center !important;
     margin-bottom: var(--mb-2) !important;
-    width: 100% !important;
+    margin: 0 10px;
 }
 
 .contact__information .bundleContact {
@@ -1072,6 +1075,9 @@ img {
     .testimonial__data,
     .testimonial__description {
         text-align: center;
+    }
+    .contact_title {
+        padding-right: 0;
     }
 }
 
