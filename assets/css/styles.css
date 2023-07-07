@@ -515,8 +515,11 @@ img {
 .skills__css {
     width: 80%;
 }
-.skills__js {
+.skills__ts {
     width: 60%;
+}
+.skills__js {
+    width: 80%;
 }
 .skills__react {
     width: 80%;
